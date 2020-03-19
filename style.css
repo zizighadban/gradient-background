@@ -1,0 +1,30 @@
+body{
+    font-family: 'Raleway', sans-serif;     /*typsnitt*/
+    color: rgba(0, 0, 0,.5);              /*opacity*/
+    text-align: center;                     /*centrera text*/
+    text-transform: uppercase;              /*CAPS bokstäver*/
+    letter-spacing: .5em;                   /*mellanrum mellan bokstäver*/
+    top: 15%;
+    /*linear-gradient visar blandad färg*/
+    /*i detta fall: från höger, röd och gul färg*/
+    background: linear-gradient(to right, rgb(245, 162, 176), rgb(187, 50, 187));
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+h1{
+    font: 600 3.5em sans-serif; 
+    color: rgba(0, 0, 0, .5);
+    text-align: center;         
+    text-transform: uppercase;  
+    letter-spacing: .5em;  
+    width: 100%;
+}
+
+h2{
+    font: 900 1.5em serif;  
+    letter-spacing: 0.8em;  
+}

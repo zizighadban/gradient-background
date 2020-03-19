@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient Backgrounf</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--ger body ett id för att komma åt i script.js-->
+<body id="gradient">
+    <h1>Background Generator</h1>
+    <p>Choose colors</p>
+    <!--type="color" ger en 'knapp' där användaren kan byta färg på sidan-->
+    <!--class för att komma åt i script.js-->
+    <!--oninput="namnPåFunction". Behöver ej addEventListener med denna-->
+    <input class="color1" type="color" name="color1" value="#00ffcc" oninput="addGradient()">
+    <!--skapar två st type="color" då gradient oftast är 2 färger-->
+    <input class="color2" type="color" name="color2" value="#00ccff" oninput="addGradient()">
+    <br>
+    <br>
+    <h2>Current CSS Background</h2>
+    <h5></h5>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
